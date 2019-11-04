@@ -1,0 +1,214 @@
+
+
+.lebron {
+    background: url("players/images/leBron-Dunk.jpg") left 40% top 20%; 
+}
+
+.jordan {
+    background: url("players/images/jordan.jpg")  left 60% top 55%; 
+}
+
+.kareem {
+    background: url("players/images/alcindor-bucks.jpg") left 57% top 10%; 
+}
+
+.russell {
+    background: url("players/images/legends-russell.jpg") left 45% top 10%; 
+}
+
+.magic {
+    background: url("players/images/Magic-Johnson1.jpg") left 30% top 1%; 
+}
+
+.wilt {
+    background: url("players/images/wilt.jpg") left 44% top 5%; 
+}
+
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+} 
+
+
+.finals {
+    background: url("images/finals-mvp.png") center/cover;
+    margin: 0.3rem 0;
+}
+
+.mvp {
+    background: url("images/mvp.png") center/cover; 
+    margin: 0.3rem 0;
+}
+
+.champ {
+    background: url("images/larry.png") center/cover; 
+    margin: 0.3rem 0;
+}
+
+.nba {
+    background: url("images/basketball.jpg") left 20% bottom 1% /cover no-repeat;
+    width: 100%;
+    height: 100%;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    position: fixed;
+    z-index: -1;
+    
+}
+
+.category {
+    margin: 0 0 10rem 0;
+}
+
+.trophies {
+    text-align: center;
+    vertical-align: middle;
+    /* min-width: 445px; */
+    /* margin-top: 50px; */
+    border: solid black 2px;
+    background: rgba(147, 152, 153, 0.541);
+}
+
+/* .trophies > img:hover,
+.trophies > img:active {
+    background: red;
+
+} */
+
+
+
+#mvp {
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+#larry {
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+#russel {
+    height: 100%;
+    width: 25%;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
+
+.max {
+    background: url("images/Max-Kellerman.jpg");
+}
+
+.stephen {
+    background: url("images/stephen.jpg");
+}
+
+.skip {
+    background: url("images/skip-bayless.jpg");
+}
+
+.jalen {
+    background: url("images/jalen.jpg");
+}
+
+.sharpe {
+    background: url("images/Shannon_Sharpe.jpg");
+}
+
+.broussard {
+    background: url("images/chris-broussard.jpg");
+}
+
+.wright {
+    background: url("images/wright.jpg");
+}
+
+.barkley {
+    background: url("images/barkley.jpg");
+}
+
+.cowherd {
+    background: url("images/cowherd.jpg");
+}
+
+.cbs {
+    background: url("images/cbs.jpg");
+}
+
+.slam {
+    background: url("images/slam.jpg");
+}
+
+.mccallum {
+    background: url("images/mccallum.jpg");
+}
+
+.espn {
+    background: url("images/espn.jpg");
+}
+
+.medium {
+    background: url("images/medium.jpg");
+}
+
+.seatgeek {
+    background: url("images/seatgeek.jpg");
+}
+
+.pledge {
+    background: url("images/pledge.jpg");
+}
+
+.chat {
+    background: url("images/chat.jpg");
+}
+
+.newarena {
+    background: url("images/newarena.jpg");
+}
+
+.sporteology {
+    background: url("images/sporteolgy.jpg");
+}
+
+
+@media (min-width: 40rem) {
+
+    #mvp {
+        width: 45%;
+    }
+    
+    #larry {
+        
+        width: 58%;
+    }
+    
+    #russel {
+        width: 45%; 
+    }
+
+    .dropdown-trophy {
+        width: 28%;
+        /* padding: 0 2%; */
+    }
+
+
+    .description {
+        font-size: 13px;
+        margin-left: 5%;
+    }
+
+}

@@ -1,0 +1,176 @@
+.jack {
+    background: url("players/images/jack.jpg") left 70% bottom 80%; 
+}
+
+.tiger{
+    background: url("players/images/tiger.jpg") left 75% bottom 55%; 
+}
+
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+} 
+
+.pga {
+    background: url("images/golf.jpg") left 75% top 1% /cover no-repeat;
+    width: 100%;
+    height: 100%;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    position: fixed;
+    z-index: -1;
+}
+
+.stats {
+    padding: 0;
+    
+    /* min-width: 15rem; */
+}
+
+.trophies {
+    text-align: center;
+    
+    /* min-width: 445px; */
+    /* margin-top: 50px; */
+    border: solid black 2px;
+    background: rgba(147, 152, 153, 0.541);
+}
+
+#masters {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+#us-open {
+    height: 100%;
+    width:30%;
+    margin: auto;
+    display: block;
+}
+
+#claret {
+    height:100%;
+    width:20%;
+    margin: auto;
+    display: block;
+}
+
+#pga {
+    height:100%;
+    width:50%;
+    margin: auto;
+    display: block;
+}
+
+.case > div > div {
+    display: inline-block; 
+    vertical-align: middle;
+    text-align: right;
+}
+
+
+.masters {
+    background: url("images/masters.png") center/cover;
+    height: 3rem;
+    width: 5rem;
+    margin: 0.3rem 0 0 0;
+}
+
+.us-open {
+    background: url("images/usopen.png") center/cover; 
+    height: 6rem;
+    width: 2.4rem;
+    margin: 0.3rem 0;
+}
+
+.claret {
+    background: url("images/claret.png") center/cover; 
+    height: 7rem;
+    width: 2.3rem;
+    margin: 0.3rem 0.1rem;
+}
+
+.pga-champ {
+    background: url("images/pga.png") center/cover; 
+    height: 6.5rem;
+    width: 4rem;
+    margin: 0.3rem 0;
+}
+
+.pga-com {
+    background: url("images/PGAcom.jpg");
+}
+
+.bleacher {
+    background: url("images/bleacher.jpg");
+}
+
+.athlon {
+    background: url("images/athlon.jpg");
+}
+
+.seatgeek {
+    background: url("images/seatgeek.jpg");
+}
+
+.thought {
+    background: url("images/thought.jpg");
+}
+
+.gnn {
+    background: url("images/gnn.jpg");
+    
+}
+
+.wrx {
+    background: url("images/wrx.jpg");
+    
+}
+
+.howthey {
+    background: url("images/howthey.jpg");
+    
+}
+
+.topten {
+    background: url("images/topten.jpg");
+    
+}
+
+@media (min-width: 40rem) {
+
+    #masters {
+        width: 100%;
+    }
+    
+    #us-open {
+        width: 50%;
+    }
+
+    #claret {
+        width: 40%;
+    }
+
+    #pga {
+        width: 70%;
+   
+    }
+    
+    .dropdown-trophy {
+        width: 25%;
+        /* padding: 0 1%; */
+    }
+
+
+    .description {
+        font-size: 13px;
+        margin-left: 5%;
+    }
+}

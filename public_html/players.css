@@ -1,0 +1,603 @@
+
+.trophies {
+    border-radius: 15px;
+}
+
+.container {
+    padding-top: 0.3rem;
+    text-align: center;
+}
+
+.name {
+    /* font-family: 'Titan One', cursive; */
+    font-family: 'Vidaloka, serif';
+    background: rgba(224, 192, 11, 0.9);
+    font-weight: bolder;
+    font-size: 2rem;
+    width: 100%;
+    /* min-width: 14.375rem; */
+    margin: 0;
+    padding: 0.625rem;
+    border: rgb(0, 0, 0) solid 2px;
+    /* float: right; */
+}
+
+.category {
+    margin: 12.5rem 0;
+    text-align: center;
+}
+
+.trophy {
+    display: block;
+    /* margin: 0.5rem 0.625rem;
+    vertical-align: middle; */
+}
+
+
+.case {
+    text-align: center;
+    margin: 0;
+    /* margin-top: 50px; */
+    border: solid black 2px;
+    background: rgba(95, 95, 95, 0.747);
+    /* padding: 10px; */
+}
+
+
+.finals {
+    height: 7rem;
+    width: 2.6rem;
+    display: inline-block; 
+    vertical-align: middle;
+    text-align: right;
+}
+
+.mvp {
+    height: 8rem;
+    width: 3rem;
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+.champ {
+    height: 7rem;
+    width: 3.5rem;
+    display: inline-block; 
+    vertical-align: middle;
+    text-align: right;
+}
+
+.stats {
+    background: rgba(255, 255, 255, 0.89);
+    border: rgb(0, 0, 0) solid 1px;
+    width: 100%;
+    padding: 0.3125rem;
+    margin: 0 0 2% 0;
+    /* min-width: 15rem; */
+}
+
+.intro {
+    margin: 0 0 32rem 0 ;
+    font-size: 1rem;
+    
+}
+
+.intro h1 {
+    font-family: 'Vidaloka, serif';
+    
+}
+
+.titleFont {
+    font-family: 'Vidaloka, serif';
+    background: rgba(224, 192, 11, 0.9);
+    margin: 0;
+    margin-top: 0.5%;
+    width: 100%;
+    /* min-width: 531px; */
+    /* max-width: 675px; */
+    font-weight: normal;
+}
+.records {
+    background: rgba(0, 0, 0, 0.904);
+    color:rgba(224, 192, 11, 0.9);
+    border:rgba(224, 192, 11, 0.9) solid 1px;
+    margin: 1% auto;
+}
+.big {
+    font-family: 'Titan One', cursive;
+    background: rgba(202, 138, 0, 0.9);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 100%;
+    padding: none;
+    border: 1px black solid;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.seasonTitle {
+    font-family: 'Titan One', cursive;
+    display: block;
+    background: rgba(0, 0, 0, 0.904);
+    color:rgba(224, 192, 11, 0.9);
+    margin: 0 0 2% 0;
+    border: rgba(224, 192, 11, 0.9) solid 1px;
+    
+}
+
+.season {
+    display: inline-block;
+}
+
+.num {
+    display: inline-block;
+    padding: 0 1%;
+    font-size: 1rem;
+}
+
+.game {
+    min-width: 18.75rem;
+}
+
+.links {
+    font-family: 'Titan One', cursive;
+    text-align: center;
+    background:rgba(255, 255, 255, 0.8);
+    padding: 2% 0%;
+    border: solid black 2px;
+    text-decoration: none;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+
+
+.links a {
+    text-decoration: none;
+    color: black;
+    padding: 0.125rem 0.125rem;
+}
+ 
+.links a:hover,
+.links a:active {
+    color: gold;
+    background: rgb(0, 0, 0);
+    border-radius: 10%;
+}
+
+
+
+
+.cats {
+    display: inline-block;
+    margin: 0 1%;
+}
+
+.goat-stats {
+    padding-left: 20%;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.player-list {
+    font-family: 'Crimson Text', serif;
+    font-weight: 900; 
+}
+
+.critic-profile {
+    border: gold solid 2px;
+    background: black; 
+    color:  rgb(216, 201, 201);
+    padding: 1rem;
+    text-align: left;
+    width: 45%;
+    min-width: 15.7rem;
+    display: inline-block;
+    margin: 0.3rem 0.1rem;
+    border-radius: 15px;
+}
+
+.critic-name {
+    
+    margin: 0 0 0.3rem 0;
+    color:  gold;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.info {
+    color:  rgb(129, 123, 123);
+    font-size: 0.8rem;
+    margin: 0 0 1rem 0;
+}
+
+.foot-info {
+    color:  rgb(129, 123, 123);
+    font-size: 0.8rem;
+    margin: 1rem 0 0 0;
+    text-align: right;
+}
+
+.pic {
+    margin: 0 0.5rem 0.5rem 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: cover;
+    float: left;
+    
+}
+
+#web-link {
+    color: gold;
+    float: left;
+    font-size: 11px;
+}
+
+#web-link:hover,
+#web-link:active {
+    color:  rgba(209, 182, 29, 0.589);
+    text-decoration: underline;
+}
+
+.catFont {
+    font-family: 'Kreon', serif;
+    background: rgba(0, 0, 0, 0.836);
+    color:rgba(224, 192, 11, 0.9);
+    border: rgba(224, 192, 11, 0.9) solid 1px;
+    margin: auto;
+    margin-top: 0.5%;
+    width: 100%;
+    /* min-width: 531px; */
+    /* max-width: 675px; */
+    font-weight: normal;
+}
+
+
+
+
+#list {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 
+    'head'
+    'menu'
+    'statsHead'
+    'stats'
+    'foot';
+    margin: auto;
+    width: 100%;
+    /* max-width: 352px; */
+    margin-bottom: 12.5rem; 
+}
+
+#stat-head {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: head;
+    
+}
+
+
+#sub-menu {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    grid-area: menu;
+    margin: auto;
+    width: 100%;
+    height: 55px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.catshead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px 0 15px 0;
+    font-size: 0.9rem;
+    /* font-weight: bold; */
+    font-family: 'Titan One', cursive;
+    text-align: center;
+    
+}
+
+.cats-banner {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 25px;
+    border: black 1px solid;
+    background:rgb(139, 134, 125);
+    margin: -30px 0 0 0;
+}
+
+#all-time {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: stats;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
+    height: 330px;
+    min-width: 300px;
+    background:rgba(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+
+}
+
+.menu-font {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background:rgb(148, 115, 78);
+    
+    border: black 1px solid;
+    font-size: 1rem;
+    padding: 0.5rem 0.5%;
+    /* height: 100%;  */
+    /* align-self: space-around; */
+}
+
+
+.menu-font-extra {
+    background:rgb(206, 173, 102);
+}
+
+
+.menu-font:hover,
+.menu-font:active {
+    background:rgb(206, 173, 102);
+    cursor: pointer;
+}
+
+
+.min-max {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: foot;
+    /* border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black; */
+     font-weight: lighter;
+     font-size: 0.8rem;
+     border-radius:  0 0 15px 15px;
+}
+
+.review {
+    margin: auto;
+    width: 100%;
+    /* max-width: 352px; */
+    min-width: 300px;
+}
+
+#critic-list {
+    border-radius:  0 0 15px 15px;
+    /* max-width: 352px; */
+    min-width: 300px;
+}
+
+
+
+
+@media (min-width: 40rem) {
+
+    .container {
+        padding-top: 1.25rem;
+    }
+
+    .name {
+        width: 30%;
+        min-width: 14.375rem;
+        margin: 2.5rem 0 0 1.25rem;
+        padding: 0.625rem;
+        float: right;
+    }
+    
+    .stats {
+        width: 30%;
+        margin: 0.3% 0.5% 0.5% 0.5%;
+        /* min-width: 15rem;
+        max-width: 18.7rem; */
+    }
+
+
+  
+
+    #all-time {
+        min-width: 250px;
+        overflow: auto;
+    }
+
+    .case {
+       display: inline-block;
+       /* width: 25.8rem; */
+       /* max-width: 25.8rem; */
+       margin: 0.3rem 2rem;
+       padding: 1rem;
+       vertical-align: middle;
+    }
+
+    .trophy {
+        display: inline-block;
+        margin: 0.5rem 0.625rem;
+        vertical-align: middle;
+    }
+
+    .trophy .stats {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .seasonTitle {
+        display: inline-block;
+        margin: 0.3% 0.5% 0.5% 0.5%;
+        max-width: 18.7rem;
+    }
+
+    .category {
+        margin: 0 0 10rem 0;
+    }
+    
+    
+    .critic-container {
+        display: -ms-grid;
+        display: grid;
+    }
+
+    .menu-font {
+        font-size: 1.3rem;
+        width: 120px;
+        padding: 0.5rem 0;
+    }
+
+    .big {
+        font-size: 1.8rem;
+        /* min-width: 34.375rem;
+        max-width: 45rem;
+        width: 80%; */
+    }
+
+    .min-max {
+         font-size: 1.2rem;
+    }
+    
+
+    .links {
+        font-size: 1rem;
+    }
+
+    
+
+    .critic-profile {
+        max-width: 21rem;
+        margin: 0.5rem 0.2rem;
+        vertical-align: top;
+    }
+    
+    .player-list {
+        font-size: 18px;
+    }
+   
+
+    .goat-stats {
+        font-size: 17px;
+    }
+
+    .cats {
+        margin: 0 2%;
+    }
+
+    .catFont {
+        width: 65%;
+        max-width: 39rem;
+        min-width: 33.3rem;
+    }
+
+    .catshead {
+        font-size: 1.2rem;
+    }
+
+
+    #list {
+            grid-template-areas: 
+        'head head'
+        'menu statsHead'
+        'menu stats'
+        'foot foot';
+        -ms-grid-columns: 120px 3fr;
+        grid-template-columns: 120px 3fr;
+        max-width: 1000px;
+    }
+
+    .review,
+    #critic-list {
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    #sub-menu {
+        display: inherit;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        
+        height: 330px;
+    }
+
+    .cats-banner {
+        height: 30px;
+    }
+
+
+    #stat-head {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+    }
+
+
+    #sub-menu {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 2;
+        -ms-grid-column: 1;
+    }
+
+
+    #all-time {
+        -ms-grid-row: 3;
+        -ms-grid-column: 2;
+    }
+
+
+    .min-max {
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+    }
+
+
+}
+
+@media (min-width: 770px) {
+      #list,
+      .review,
+      #critic-list {
+        width: 80%;
+    }
+
+
+    .menu-font {
+        font-size: 1.3rem;
+        padding: 0.5rem 0;
+    }
+
+    .player-list {
+        font-size: 20px;
+    }
+
+    .cats {
+        margin: 0 3.5%;
+    }
+
+}

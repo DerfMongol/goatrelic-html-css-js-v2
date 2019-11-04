@@ -1,0 +1,147 @@
+.dropdown-trophy {
+    position: relative;
+    display: block;
+    width:100%;
+    -webkit-transition: -webkit-transform .15s;
+    transition: -webkit-transform .15s;
+    -o-transition: translate .15s;
+    -o-transition: transform .15s;
+    transition: transform .15s;
+    transition: transform .15s, -webkit-transform .15s;
+    margin: 1rem 0;
+    z-index: 2;
+ }
+ 
+ .description {
+     display: none;
+     position: absolute;
+     color: white;
+     top: 1%;
+     right: 1%;
+     background-color: black;
+     border-radius: 10px;
+     border: white solid 1px;
+     width: 40%;
+     -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     padding: 0.5rem;
+     text-align: left;
+     font-size: 15px;
+     
+ }
+ 
+ .description > nav > ul {
+     padding-left: 1rem;
+ }
+
+ .description > nav > ul > li {
+    margin: 0.5rem 0;
+}
+ 
+ 
+ .trophy-title {
+     color: gold;
+     font-size: 20px;
+     border-bottom: 0.5px solid gray;
+     margin-bottom: 1rem;
+ }
+ 
+ 
+ .dropdown-trophy:hover .description {
+     display: block;
+     -webkit-transform: translate(20%,0);
+         -ms-transform: translate(20%,0);
+             transform: translate(20%,0);
+     
+ }
+ 
+ .dropdown-trophy:hover  {
+     /* -webkit-transform: scale(1.2);
+         -ms-transform: scale(1.2);
+             transform: ; */
+         -webkit-transform: scale(1.1) translate(-20%,0) ;
+             -ms-transform: scale(1.1) translate(-20%,0) ;
+                 transform: scale(1.1) translate(-20%,0) ;
+         z-index: 3;
+ }
+
+
+
+@media (min-width: 40rem) {
+
+    .dropdown-trophy {
+        display: inline-block;
+        height: 100%;
+        width: 30%;
+        margin: 0;
+        
+     }
+
+     .trophies {
+         margin: 5% 0 0 0;
+     }
+
+
+    .description {
+        width: 75%;
+        font-size: 13px;
+    }
+
+    .dropdown-trophy:hover  {
+        -webkit-transform: scale(1.1) translate(-25%,0) ;
+            -ms-transform: scale(1.1) translate(-25%,0) ;
+                transform: scale(1.1) translate(-25%,0) ;
+           
+    }
+
+    .dropdown-trophy:hover .description {
+        -webkit-transform: translate(30%,0);
+            -ms-transform: translate(30%,0);
+                transform: translate(30%,0);
+        
+    }
+
+    .trophy-title {
+       font-size: 17px;
+    }
+}
+
+@media (min-width: 770px) {
+
+    .dropdown-trophy {
+        display: inline-block;
+        height: 100%;
+        width: 30%;
+        margin: 0;
+     }
+
+     
+    .trophies {
+        margin: 5% 17% 0 17%;
+    }
+
+    .trophy-title {
+        font-size: 20px;
+     }
+
+     .description {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .dropdown-trophy:hover  {
+        -webkit-transform: scale(1.1) translate(-25%,0) ;
+            -ms-transform: scale(1.1) translate(-25%,0) ;
+                transform: scale(1.1) translate(-25%,0) ;
+           
+    }
+
+    .dropdown-trophy:hover .description {
+        -webkit-transform: translate(60%,0);
+            -ms-transform: translate(60%,0);
+                transform: translate(60%,0);
+        
+    }
+
+    
+}

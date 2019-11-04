@@ -1,0 +1,55 @@
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background: white;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 200px;
+    margin: auto;
+}
+
+
+.delete-button {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+/* .add-players {
+    display: flex;
+    flex-direction: column;
+} */
+
+.player-search:hover,
+.player-search:active,
+.player-search:focus {
+    color: gold;
+    background: black;
+    cursor: pointer;
+}
+
+.list-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 12.5rem 0;
+    text-align: center;
+    
+}
+
+.search-player {
+    margin: 0 40px;
+}
